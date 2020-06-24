@@ -7,7 +7,7 @@
                 var div = document.createElement('div');
                 div.id = 'livechat-button-' + config.buttonId + '';
                 API.append(elem, div);
-                API.loadJS('https://cdn.jsdelivr.net/gh/ipitcrew/instacom/' + config.dealerID + '.js');
+                API.loadJS('https://cdn.jsdelivr.net/gh/ipitcrew/instacom/' + config.dealerId + '.js');
             });
         });
     });
